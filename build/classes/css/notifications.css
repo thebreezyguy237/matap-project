@@ -1,0 +1,22 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.pane{
+    -fx-background-color: #fff;
+}
+
+.menu-heading{
+    -fx-font-size: 8px;
+}
+
+.big-heading{
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+}
+
+.small-heading{
+    -fx-font-size: 18px;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}

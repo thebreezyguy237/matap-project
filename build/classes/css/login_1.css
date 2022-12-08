@@ -1,0 +1,93 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.mainFxmlClass{
+    -fx-pref-width: 800px;
+    -fx-pref-height: 500px;
+}
+
+.welcome-block{
+  -fx-background-color: #faebcd;
+}
+
+.login-block{
+    -fx-background-color: #fff;
+}
+
+.big-heading{
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-line-height: 2;
+}
+
+.text{
+    -fx-color: #000;
+}
+
+.small-heading{
+    -fx-font-style: italic;
+    -fx-font-size: 18px;
+    -fx-text-alignment: center;
+    -fx-line-height: 2;
+}
+
+.paragraph{
+    -fx-font-size: 12px;
+    -fx-line-height: 2;
+    -fx-text-alignment: center;
+}
+
+.footer-text{
+    -fx-font-size: 7px;   
+}
+
+.title{
+    -fx-font-family: "Lobster";
+    -fx-font-size: 30px;
+}
+
+.textfield{
+    -fx-background-color: #e6e6e6;
+
+}
+
+.button{
+    -fx-background-color: #ffd800;    
+}
+
+.signUpLabel{
+    -fx-padding: 20px 0 0 30px;
+}
+
+.signUpVbox{
+    -fx-padding: 0 0 0 60px;
+}
+
+.moveTextField{
+    -fx-border-insets: 0 0 0 30px;
+}
+
+.choice-button{
+    -fx-background-color: #fff;
+    -fx-border-width: 5px;
+    -fx-border-color: #faebcd;
+}
+
+.signUpHbox{
+    -fx-padding: 0 0 0 30px;
+}
+
+.validateHboxButton{
+    -fx-padding: 5px 20px;
+    -fx-border-insets: 0 0 0 30px;
+}
+
+.signUpTextField{
+    -fx-background-color: #e6e6e6;
+}

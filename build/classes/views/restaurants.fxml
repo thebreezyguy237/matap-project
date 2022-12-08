@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="restoPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RestaurantsController">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="624.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox alignment="CENTER_LEFT" prefHeight="136.0" prefWidth="624.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Restaurants" />
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <padding>
+                  <Insets left="25.0" />
+               </padding>
+            </HBox>
+         </top>
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="448.0" prefWidth="624.0" spacing="10.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="57.0" prefWidth="524.0">
+                           <children>
+                              <Button fx:id="button1" graphicTextGap="20.0" mnemonicParsing="false" onAction="#loadButton" prefHeight="76.0" prefWidth="524.0" styleClass="choice-button" stylesheets="@../css/login.css" text="Burger King">
+                                 <graphic>
+                                    <ImageView fitHeight="57.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../../Desktop/PKFIE/SOPHOMORE%20I/Introduction%20to%20Web%20Design/Web%20Design/Image/Friends/Bifuh.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <padding>
+                                    <Insets bottom="5.0" right="20.0" top="5.0" />
+                                 </padding>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="1.0" prefWidth="624.0">
+                           <children>
+                              <Button fx:id="button2" graphicTextGap="20.0" mnemonicParsing="false" onAction="#loadButton" prefHeight="67.0" prefWidth="524.0" styleClass="choice-button" stylesheets="@../css/login.css" text="McDonald">
+                                 <graphic>
+                                    <ImageView fitHeight="57.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../../Desktop/PKFIE/SOPHOMORE%20I/Introduction%20to%20Web%20Design/Web%20Design/Image/Gallery/evan.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="5.0" right="30.0" top="5.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="0.0" prefWidth="624.0">
+                           <children>
+                              <Button fx:id="button3" graphicTextGap="20.0" mnemonicParsing="false" onAction="#loadButton" prefHeight="67.0" prefWidth="525.0" styleClass="choice-button" stylesheets="@../css/login.css" text="KFC">
+                                 <graphic>
+                                    <ImageView fitHeight="57.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../../Desktop/PKFIE/SOPHOMORE%20I/Introduction%20to%20Web%20Design/Web%20Design/Image/Gallery/la%20nation.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="5.0" right="70.0" top="5.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="0.0" prefWidth="624.0">
+                           <children>
+                              <Button fx:id="button4" graphicTextGap="20.0" mnemonicParsing="false" onAction="#loadButton" prefHeight="67.0" prefWidth="526.0" styleClass="choice-button" stylesheets="@../css/login.css" text="Socrate">
+                                 <graphic>
+                                    <ImageView fitHeight="57.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../../Desktop/PKFIE/SOPHOMORE%20I/Introduction%20to%20Web%20Design/Web%20Design/Image/Gallery/James.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="5.0" right="45.0" top="5.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
