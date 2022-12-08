@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane id="AnchorPane" fx:id="transitionPane" prefHeight="500.0" prefWidth="800.0" styleClass="pane" stylesheets="@../css/transition.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="controllers.TransitionController">
+   <children>
+      <ImageView fitHeight="108.0" fitWidth="120.0" layoutX="346.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/media/images/logo.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="circle2" fill="#faebcd" layoutX="400.0" layoutY="288.0" radius="29.0" stroke="WHITE" strokeType="INSIDE" />
+      <Circle fx:id="circle1" fill="#faebcd" layoutX="290.0" layoutY="288.0" radius="29.0" stroke="WHITE" strokeType="INSIDE" />
+      <Circle fx:id="circle3" fill="#faebcd" layoutX="510.0" layoutY="288.0" radius="29.0" stroke="WHITE" strokeType="INSIDE" />
+      <Label layoutX="357.0" layoutY="446.0" styleClass="footer-text" stylesheets="@../css/transition.css" text="© 2022 MATAP FOS PC APP" textFill="#c2c2c2" />
+   </children>
+</AnchorPane>

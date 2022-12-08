@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 juin 2022, 19:40:35
+    Author     : HP
+*/
+
+.menu-heading{
+    -fx-font-size: 8px;
+}
+
+.big-heading{
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+}
+
+.textfield{
+    -fx-background-color: #e6e6e6;
+}
+
+.pane{
+    -fx-background-color: #fff;
+}
+
+
+

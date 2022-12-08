@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="typeFoodPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FoodAndDrinksController">
+   <children>
+      <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="624.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="605.0" prefWidth="624.0" style="-fx-background-color: #fff;">
+               <children>
+                  <BorderPane prefHeight="605.0" prefWidth="624.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <top>
+                        <VBox prefHeight="177.0" prefWidth="624.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <HBox prefHeight="71.0" prefWidth="624.0">
+                                 <children>
+                                    <Label styleClass="menu-heading" stylesheets="@../css/foodAndDrinks.css" text="Food &amp; Drinks">
+                                       <HBox.margin>
+                                          <Insets left="25.0" top="40.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Label styleClass="big-heading" stylesheets="@../css/foodAndDrinks.css" text="Types of Foods">
+                                       <HBox.margin>
+                                          <Insets left="25.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </top>
+                     <center>
+                        <VBox prefHeight="448.0" prefWidth="624.0" spacing="10.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <HBox prefHeight="57.0" prefWidth="524.0">
+                                 <children>
+                                    <Button fx:id="africanFood" graphicTextGap="20.0" mnemonicParsing="false" onAction="#loadFoodType" prefHeight="76.0" prefWidth="524.0" styleClass="choice-button" stylesheets="@../css/login.css" text="African Food">
+                                       <graphic>
+                                          <ImageView fitHeight="57.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../../Desktop/PKFIE/SOPHOMORE%20I/Introduction%20to%20Web%20Design/Web%20Design/Image/Friends/Bifuh.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <padding>
+                                          <Insets right="40.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="1.0" prefWidth="624.0">
+                                 <children>
+                                    <Button fx:id="bakeries" graphicTextGap="20.0" mnemonicParsing="false" onAction="#loadFoodType" prefHeight="73.0" prefWidth="528.0" styleClass="choice-button" stylesheets="@../css/login.css" text="Bakeries">
+                                       <graphic>
+                                          <ImageView fitHeight="57.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../../Desktop/PKFIE/SOPHOMORE%20I/Introduction%20to%20Web%20Design/Web%20Design/Image/Gallery/evan.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets right="93.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="0.0" prefWidth="624.0">
+                                 <children>
+                                    <Button fx:id="americanFood" graphicTextGap="20.0" mnemonicParsing="false" onAction="#loadFoodType" prefHeight="73.0" prefWidth="553.0" styleClass="choice-button" stylesheets="@../css/login.css" text="American Food">
+                                       <graphic>
+                                          <ImageView fitHeight="57.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../../Desktop/PKFIE/SOPHOMORE%20I/Introduction%20to%20Web%20Design/Web%20Design/Image/Gallery/la%20nation.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets right="23.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="0.0" prefWidth="624.0">
+                                 <children>
+                                    <Button fx:id="drinks" graphicTextGap="20.0" mnemonicParsing="false" onAction="#loadFoodType" prefHeight="73.0" prefWidth="539.0" styleClass="choice-button" stylesheets="@../css/login.css" text="Drinks">
+                                       <graphic>
+                                          <ImageView fitHeight="57.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../../Desktop/PKFIE/SOPHOMORE%20I/Introduction%20to%20Web%20Design/Web%20Design/Image/Gallery/James.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets right="114.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <BorderPane.margin>
+                              <Insets left="50.0" right="50.0" />
+                           </BorderPane.margin>
+                        </VBox>
+                     </center>
+                  </BorderPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
